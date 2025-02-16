@@ -15,7 +15,7 @@ load_dotenv()
 # Configuration
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 PORT = int(os.getenv('PORT', 5050))
-VOICE = 'alloy'
+VOICE = 'sage'
 LOG_EVENT_TYPES = [
     'error', 'response.content.done', 'rate_limits.updated',
     'response.done', 'input_audio_buffer.committed',
